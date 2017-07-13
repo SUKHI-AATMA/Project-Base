@@ -1,0 +1,35 @@
+{
+  "name": "basetemplate",
+  "version": "1.0.0",
+  "description": "BAse templatre for all projects",
+  "main": "base-template.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUKHI-AATMA/Project-Base.git"
+  },
+  "keywords": [
+    "Frontend",
+    "base",
+    "template"
+  ],
+  "author": "SUKHI-AATMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUKHI-AATMA/Project-Base/issues"
+  },
+  "homepage": "https://github.com/SUKHI-AATMA/Project-Base#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^3.0.1"
+  },
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  }
+}
