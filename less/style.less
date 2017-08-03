@@ -1,4 +1,62 @@
 @import "variables.less";
 @import "normalize.less";
 
-body{ background:@white; }
+
+body {
+    background: @white;
+}
+
+section {
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.container,
+.output {
+    left: 0;
+    max-width: inherit;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    display: none;
+}
+
+.output {
+    left: 0;
+    position: absolute;
+    ;
+    top: -200%;
+}
+
+.container#what {
+    display: block;
+}
+
+.container>div,
+
+.output>div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+section .btn-large {
+    margin: 0 15px 0 0;
+}
+
+section h2 {
+    margin: 0 0 30px;
+}
+
+.output>div p {
+    font-size: 1.6rem;
+}
+
+.output>div>h5 {
+    line-height: 200%;
+}

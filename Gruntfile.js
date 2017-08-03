@@ -34,7 +34,8 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          'js/vendor/less.min.js',
+          'js/vendor/jquery-3.2.1.min.js',
+          'js/vendor/materialize.min.js',
           'js/script.js',
           //'js/src/app.js',
           //'js/src/controllers/SiteController.js',
@@ -56,7 +57,7 @@ module.exports = function(grunt) {
     cssmin: {
       compress: {
         files: {
-          'css/style.min.css': ['css/style.css']
+          'css/style.min.css': ['css/materialize.min.css','css/icon.css','css/style.css']
         }
       }
     },

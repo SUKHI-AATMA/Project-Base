@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dummy Template</title>
+    <meta name="description" content="Dummy Template">
+    <meta name="author" content="SUKHI-AATMA">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/style.min.css?v=1.0">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/app.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="container" id="what">
+            <div>
+                <h2>What are you Looking For?</h2>
+                <div class="options">
+                    <a class="waves-effect waves-light btn-large" data-value='Developer' data-next="developer"><i class="material-icons left">developer_mode</i>Developer</a>
+                    <a class="waves-effect waves-light btn-large" data-value='Content Writer' data-next="content"><i class="material-icons left">create</i>Content Writer</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="developer">
+            <div>
+                <h2>What is the duration of the project?</h2>
+                <div class="options">
+                    <a class="waves-effect waves-light btn-large" data-value="less than 2 months" data-next="time">&lt; 2 Months</a>
+                    <a class="waves-effect waves-light btn-large" data-value="2-6 months" data-next="time">2-6 Months</a>
+                    <a class="waves-effect waves-light btn-large" data-value="more than 6 months" data-next="time">&gt; 6 Months</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="time">
+            <div>
+                <h2>What would be weekly time commitment?</h2>
+                <div class="options">
+                    <a class="waves-effect waves-light btn-large" data-value="20hrs/week" data-next="output">20hrs/week</a>
+                    <a class="waves-effect waves-light btn-large" data-value="40hrs/week" data-next="output">40hrs/week</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="content">
+            <div>
+                <h2>What type of content?</h2>
+                <div class="options">
+                    <a class="waves-effect waves-light btn-large" data-value="Blog" data-next="blog">Blog</a>
+                    <a class="waves-effect waves-light btn-large" data-value="Copy Writing" data-next="campaign">Copy Writing</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="blog">
+            <div>
+                <h2>What will be the lengh of blog?</h2>
+                <div class="options">
+                    <a class="waves-effect waves-light btn-large" data-value="400-500 Words" data-next="output">400-500 Words</a>
+                    <a class="waves-effect waves-light btn-large" data-value="800-1000 Words" data-next="output">800-1000 Words</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="campaign">
+            <div>
+                <h2>Is it a Mass Campaign?</h2>
+                <div class="options">
+                    <a class="waves-effect waves-light btn-large" data-value="Yes" data-next="output">Yes</a>
+                    <a class="waves-effect waves-light btn-large" data-value="No" data-next="output">No</a>
+                </div>
+            </div>
+        </div>
+        <div class="output" id="output">
+            <div>
+                <h2>Your requirement</h2>
+                <p></p>
+                <a class="waves-effect waves-light btn-large" data-value="Submit">Submit</a></div>
+        </div>
+    </section>
+</body>
+
+</html>

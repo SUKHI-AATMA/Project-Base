@@ -1,0 +1,16 @@
+[
+/*{
+    "id": "what",
+    "question": "What are you Looking For?",
+    "options": ["Developer", "Content Writer"]
+},*/
+{
+    "id": "developer",
+    "question1": "What are you Looking For?",
+    "options1": ["Developer", "Content Writer"]
+},
+{
+    "id": "content",
+    "question": "What are you Looking For?",
+    "options": ["Developer", "Content Writer"]
+}]
