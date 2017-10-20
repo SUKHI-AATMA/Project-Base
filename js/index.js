@@ -1,4 +1,4 @@
-var PJ = {
+var INDEX = {
 
   init: function() {},
 
