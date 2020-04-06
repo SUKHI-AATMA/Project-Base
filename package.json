@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/SUKHI-AATMA/Project-Base#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-contrib-cssmin": "^2.2.0",
@@ -30,7 +30,8 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-less": "^1.4.1",
     "grunt-contrib-uglify": "^3.0.1",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "minimist": "^1.2.5"
   },
   "dependencies": {
     "grunt-cli": "^1.2.0"
